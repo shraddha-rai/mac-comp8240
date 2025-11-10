@@ -18,5 +18,5 @@ The official CLIPText implementation and pretrained model are available at
 2. Replace or point `data_dir` to `data/new_data/`.
 3. Run:
    ```bash
-   python main.py --test --dataset topic --data_dir new_data
-   python main.py --test --text_prompt --dataset topic --data_dir new_data
+   python main.py --test --dataset topic --data_dir data/new_data
+   python main.py --test --text_prompt --dataset topic --data_dir data/new_data
