@@ -1,0 +1,32 @@
+Fix random seed to 42
+converting to features: 100%|██████████████████████████████████████████████████████████████| 40000/40000 [00:22<00:00, 1774.47it/s]
+test: 100%|██████████████████████████████████████████████████████████████████████████████████████| 313/313 [09:09<00:00,  1.76s/it]
+test:
+macro_f1: 0.5188617530865263
+micro_f1: 0.5592
+weighted_f1: 0.5189941009869503
+acc: 0.5592
+{
+    'model': 'clip_single', 
+    'text_prompt': False, 
+    'dataset': 'subj', 
+    'test': True, 
+    'batch_size': 128, 
+    'epochs': 5, 
+    'lr': 0.001, 
+    'plm_lr': 0, 
+    'n_tokens': 5, 
+    'ensemble_size': 1, 
+    'threshold': 0.25, 
+    'multi_threshold': 0.225, 
+    'data_dir': 'new_data', 
+    'clip_dir': 'ViT-B/32', 
+    'cache_dir': './outputs', 
+    'use_cache': False, 
+    'seed': 42, 
+    'max_input_length': 77, 
+    'key_score': 'acc', 
+    'name': 'clip_single_subj_no_prompt', 
+    'Model': <class 'model.clip_single.Model'>, 
+    'device': 'cpu'
+    }

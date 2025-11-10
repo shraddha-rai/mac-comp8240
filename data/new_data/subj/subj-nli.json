@@ -1,0 +1,9 @@
+["positive", "negative"]
+{
+    "positive": [
+        "the sentence is positive ."
+    ],
+    "negative": [
+        "the sentence is negative ."
+    ]
+}
